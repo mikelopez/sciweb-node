@@ -1,0 +1,16 @@
+
+
+After playing around with Node.JS, I decided to take a practical approach and build my knowledge on its software by changing my websites and commerce features with Node.JS & Express, and utilizing TDD/BDD Testing tools like Mocha, Chai, CasperJS and to explore/create the rest of node packages along the way that I might need to accomplish
+
+
+Features to come:
+- Rendering websites, pages and routes dynamically based on domain names
+- API client to third party affiliate networks
+- Shopzilla API Integration 
+- Base Landing page backend
+- Products / Affiliate Inventory backend
+- Internal template management for site pages
+
+
+
+
