@@ -2,6 +2,7 @@
 require "coffee-script"
 express = require("express")
 user = require("./routes/user")
+land = require("./routes/land")
 routes = require("./routes")
 http = require("http")
 path = require("path")
@@ -30,6 +31,7 @@ app.configure "development", ->
 
 app.get "/", routes.index
 app.get "/users", user.list
+app.get "/land", land.land
 
 http.createServer(app).listen app.get("port"), ->
   console.log "Express running port " + app.get("port")
